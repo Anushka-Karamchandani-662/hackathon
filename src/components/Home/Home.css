@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  display: flex;
+  align-items: center;
+}
+.dropDown {
+  margin-top: 5%;
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  padding-left: 8%;
+}
+.optionChain {
+  text-align: center;
+  padding-top: 25px;
+  margin-top: 30px;
+}
+
+.container1 {
+  display: block;
+  font-weight: 600;
+  font-size: 17px;
+}
+.container1 p {
+  text-align: center;
+}
+
+.span1 {
+  color: rgba(255, 0, 0, 0.655);
+  font-weight: 700;
+}
+.hr1 {
+  border: 3px solid black;
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 20px;
+}

@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 95px;
+  background-color: #0d6efd;
+  color: white;
+}
+
+.logo {
+  font-size: 30px;
+  padding-left: 4%;
+  height: 70px;
+  width: 250px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  width: 85%;
+  padding-right: 5%;
+  font-size: 35px;
+}
+
+.home,
+.about {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  padding: 5px 20px;
+  margin: 0px 10px;
+  cursor: pointer;
+}
+
+.home:hover,
+.about:hover {
+  text-decoration: underline;
+  color: black;
+  font-size: 25px;
+  padding: 5px 20px;
+  margin: 0px 10px;
+  cursor: pointer;
+}
+
+.mobile-menu-icon {
+  display: none;
+}
+
+@media screen and (max-width: 780px) {
+  .logo {
+    display: flex;
+    position: absolute;
+    top: 15px;
+    left: 30px;
+  }
+  .nav-links {
+    display: none;
+  }
+  .nav-links-mobile {
+    position: absolute;
+    display: block;
+    list-style: none;
+    background-color: black;
+    left: 0;
+    top: 75px;
+    transition: all 0.5s ease-out;
+    width: 100%;
+  }
+  .about,
+  .contact,
+  .home,
+  .signup {
+    color: white;
+    text-align: center;
+    padding: 32px;
+    width: 100%;
+    transition: all 0.5s ease;
+  }
+  .signup {
+    border: none;
+  }
+  .mobile-menu-icon {
+    display: block;
+    position: absolute;
+    font-size: 30px;
+    color: blue;
+    border: none;
+    outline: none;
+    top: 15px;
+    right: 25px;
+  }
+}
