@@ -1,3 +1,12 @@
+# First Run jar file in src/components/Home
+Run the command: java -Ddebug=true -classpath ./feed-play-1.0.jar hackathon.player.Main dataset.csv 9011
+
+# Run server in src/components/Home
+Run the command: node server.js
+
+# Run frontend
+Run the command: npm start
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
