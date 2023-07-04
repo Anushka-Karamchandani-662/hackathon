@@ -1,3 +1,5 @@
+/* import background.png from '../Assets/background.png'; */
+
 * {
   margin: 0;
   padding: 0;
@@ -18,6 +20,8 @@
   text-align: center;
   padding-top: 25px;
   margin-top: 30px;
+  font-size: 45px;
+  color:white;
 }
 
 .container1 {
@@ -29,13 +33,111 @@
   text-align: center;
 }
 
-.span1 {
-  color: rgba(255, 0, 0, 0.655);
-  font-weight: 700;
-}
 .hr1 {
-  border: 3px solid black;
+  border: 3px solid rgba(255, 255, 255, 0.443);
   width: 60%;
   margin-left: 20%;
   margin-top: 20px;
+}
+
+.optionChainTable{
+  display: flex;
+  margin-right: 10px;
+  margin-left: 10px;
+
+}
+.inTheMoney {
+  background-color: rgb(172, 225, 172);
+}
+
+.outOfMoney {
+  background-color: rgb(254, 178, 178);
+}
+.CALL{
+  text-align: center;
+  align-items: center;
+
+  font-weight: 700;
+  color: rgb(253, 196, 116);
+  font-size: 22px;
+  padding:15px;
+  border:1px solid black;
+  background-color:rgb(93, 3, 126);
+
+
+ 
+}
+.CALL1{
+  text-align: center;
+  align-items: center;
+ 
+  font-weight: 700;
+  color:rgb(93, 3, 126);
+  font-size: 22px;
+  padding:15px;
+  border:1px solid black;
+  background-color: rgb(252, 147, 0);
+
+ 
+}
+.MarketData{
+  text-align: center;
+  margin-top: -10px;
+  color:white;
+}
+.SelectSymbol{
+  font-size: 22px;
+  font-weight: 600;
+  padding: 10px;
+  margin-left: 45px;
+  margin-top:75px;
+  color:rgb(0, 0, 0);
+}
+table {
+  border-collapse: collapse !important;
+  padding: 3px;
+  margin-top: 2px;
+
+
+} 
+
+th, td {
+  border: 1px solid black !important;
+  padding: 5px;
+  text-align: center;
+  
+}
+th{
+  background-color: #0d6efd;
+  color: white;
+
+}
+.tableContainer{
+  padding: 1px;
+}
+.footer {
+  display: flex;
+  background-color: rgb(31, 30, 30);
+  color: white;
+  height: 45px;
+}
+.team {
+  width: 50%;
+  text-align: center;
+  padding: 12px;
+}
+.selectdrop{
+  background-color: #0d6efd ;
+  color:white;
+  padding:10px;
+  border-radius: 10px;
+  margin-top:12px;
+}
+.background{
+  height:340px;
+  background-image: url("../Assets/background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top:-28px;
 }
